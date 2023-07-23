@@ -157,7 +157,7 @@ export default {
   methods: {
     async getData() {
       const response = await fetch(
-        `https://biliapi.192325.xyz/x/web-interface/view?bvid=${this.bvid}`,{
+        `https://cors-anywhere.wuyuan.dev/biliapi.192325.xyz/x/web-interface/view?bvid=${this.bvid}`,{
   headers: {
     'Content-Type': 'application/json',
     'Accept': '*/* ',
